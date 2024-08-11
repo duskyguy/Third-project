@@ -5,7 +5,7 @@ pipeline{
         stage('build'){
             steps
             {   
-                bat 'C:/Build Tool/apache-maven-3.9.8/bin mvn clean'
+                bat 'C:/Build/apache-maven-3.9.8/bin mvn clean'
             }
         }
     }
